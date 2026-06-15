@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background font-body text-foreground antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-display {
+    @apply font-display font-bold leading-[1.05] tracking-normal;
+    font-size: 3.5rem;
+  }
+
+  @screen tablet {
+    .text-display {
+      font-size: 5.75rem;
+    }
+  }
+
+  @screen desktop {
+    .text-display {
+      font-size: 7.5rem;
+    }
+  }
+
+  .text-heading-xl {
+    @apply font-display text-[2rem] font-semibold leading-[1.2] tablet:text-[2.25rem] desktop:text-[3rem];
+  }
+
+  .text-heading-lg {
+    @apply font-display text-[1.375rem] font-medium leading-[1.4] tablet:text-[1.75rem] desktop:text-[2.125rem];
+  }
+
+  .text-heading-md {
+    @apply font-display text-xl font-normal leading-[1.4] desktop:text-2xl;
+  }
+}

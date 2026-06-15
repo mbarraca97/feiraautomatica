@@ -1,0 +1,31 @@
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+import HeroSection from '../components/sections/HeroSection';
+import ProofSection from '../components/sections/ProofSection';
+import BenefitsSection from '../components/sections/BenefitsSection';
+import ProductSection from '../components/sections/ProductSection';
+import GallerySection from '../components/sections/GallerySection';
+import AwardStrip from '../components/sections/AwardStrip';
+import TestimonialsSection from '../components/sections/TestimonialsSection';
+import BlogPreviewSection from '../components/sections/BlogPreviewSection';
+import FAQSection from '../components/sections/FAQSection';
+
+export default function HomePage() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <ProofSection />
+        <BenefitsSection />
+        <ProductSection />
+        <GallerySection />
+        <AwardStrip />
+        <TestimonialsSection />
+        <BlogPreviewSection />
+        <FAQSection />
+      </main>
+      <Footer />
+    </>
+  );
+}
