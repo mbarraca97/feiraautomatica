@@ -3,11 +3,14 @@ const variants = {
     'bg-foreground text-on-dark hover:opacity-90 active:scale-[0.98]',
   secondary:
     'bg-border text-foreground hover:bg-[#e0e0e0] active:scale-[0.98]',
+  soft:
+    'bg-surface text-foreground hover:bg-[#e8e8e8] active:scale-[0.98]',
   accent:
     'bg-accent text-on-dark hover:brightness-110 active:scale-[0.98]',
 };
 
 const sizes = {
+  sm: 'px-5 py-2.5 text-sm',
   md: 'px-6 py-3 text-sm tablet:text-base',
   lg: 'px-8 py-3.5 text-base',
 };
