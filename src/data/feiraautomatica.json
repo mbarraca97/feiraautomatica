@@ -26,7 +26,7 @@
       { "label": "Fundada em", "value": "1990" },
       { "label": "Clientes", "value": "30.000+" }
     ],
-    "image": "https://feiraautomatica.pt/wp-content/uploads/2023/01/logo_f.png"
+    "image": "./images/header.png"
   },
   "homepage": {
     "headline": "Há 33 anos no mercado!",
@@ -39,11 +39,11 @@
       "marqueeBrands": ["DITEC", "NICE", "PROTECO", "ISO 9001", "PME Líder"]
     },
     "featured": {
-      "label": "A nossa empresa",
-      "quote": "A empresa Feira Automática adquiriu ao longo dos anos as infraestruturas, experiência e elevados níveis de qualidade que nos permitem prestar um serviço competente e assíduo, sempre com garantia e assistência.",
-      "author": "Feira Automática",
-      "role": "Santa Maria da Feira",
-      "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1931-980x683.jpg"
+      "label": "Feedback",
+      "quote": "Só para agradecer a atenção e o profissionalismo que tiveram neste processo e no ajuste do portão de minha casa. Em especial à Marta e ao técnico que reservei tudo.\n\nPor mais empresas e colaboradores com este profissionalismo e dedicação. Continuarei a recomendar a vossa empresa sempre.",
+      "author": "Miguel Passarinha",
+      "role": "Cliente",
+      "image": "./images/feedback.png"
     },
     "technology": {
       "title": "Reimaginados pela tecnologia",
@@ -58,7 +58,7 @@
         {
           "id": "trusted",
           "type": "stat",
-          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/Untitled_Panorama3-980x683.jpg",
+          "image": "./images/f5.png",
           "hoverLabel": "Desde 1990",
           "hoverText": "Mais de 33 anos de experiência no mercado dos automatismos e portas seccionadas.",
           "stat": {
@@ -71,14 +71,14 @@
         {
           "id": "remote",
           "type": "image",
-          "image": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5571-150x150.png",
+          "image": "./images/f8.png",
           "hoverLabel": "Automatismos",
           "hoverText": "Soluções para portões de batente, correr e garagem."
         },
         {
           "id": "hero",
           "type": "hero",
-          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1928-980x683.jpg",
+          "image": "./images/f4.png",
           "badge": "Distribuidor autorizado",
           "rating": "ISO 9001",
           "reviews": "Certificação de qualidade",
@@ -102,24 +102,24 @@
       ]
     },
     "showcase": {
-      "title": "FEIRA AUTOMÁTICA",
+      "title": "FEIRA\nAUTOMÁTICA",
       "subtitlePt": "Automatismos, portas seccionadas e acessos automáticos — instalação, garantia e assistência com a qualidade de quem está há 33 anos no mercado.",
       "imagesLeft": [
         {
           "id": "left-1",
-          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1819-980x683.jpg",
+          "src": "./images/f1.png",
           "alt": "Instalações Feira Automática",
           "label": "Instalações"
         },
         {
           "id": "left-2",
-          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1836_-980x683.jpg",
+          "src": "./images/f2.png",
           "alt": "Showroom Feira Automática",
           "label": "Showroom"
         },
         {
           "id": "left-3",
-          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/08/IMG_1933-980x683.jpg",
+          "src": "./images/f3.png",
           "alt": "Equipa Feira Automática",
           "label": "Equipa"
         }
@@ -127,25 +127,25 @@
       "imagesRight": [
         {
           "id": "right-1",
-          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1928-980x683.jpg",
+          "src": "./images/f6.png",
           "alt": "Portas seccionadas",
           "label": "Portas seccionadas"
         },
         {
           "id": "right-2",
-          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1931-980x683.jpg",
+          "src": "./images/f7.png",
           "alt": "Automatismos",
           "label": "Automatismos"
         },
         {
           "id": "right-3",
-          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/Untitled_Panorama3-980x683.jpg",
+          "src": "./images/foto2.png",
           "alt": "Panorama das instalações",
           "label": "Panorama"
         }
       ],
       "video": "./videos/showcase.mp4",
-      "videoPoster": "https://feiraautomatica.pt/wp-content/uploads/2015/06/Untitled_Panorama3-980x683.jpg"
+      "videoPoster": "./images/f1.png"
     },
     "services": [
       {
@@ -166,24 +166,24 @@
       }
     ],
     "gallery": {
-      "title": "As nossas instalações",
+      "title": "Projetos Realizados",
       "subtitle": "Conheça o nosso showroom e alguns dos projetos que realizámos ao longo dos anos.",
       "linkLabel": "Ver galeria",
       "categories": [
         {
           "category": "Portas Seccionadas",
           "title": "Portfolio de Portas Seccionadas Industriais",
-          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1819-980x683.jpg"
+          "image": "public/images/f1.png"
         },
         {
           "category": "Residencial",
           "title": "Portfolio de Portas Seccionadas Residenciais",
-          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1928-980x683.jpg"
+          "image": "public/images/f7.png"
         },
         {
           "category": "Automatismos",
           "title": "Portfolio de Automatismos para Portões e Barreiras",
-          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1931-980x683.jpg"
+          "image": "public/images/f6.png"
         }
       ],
       "portfolioSections": [
@@ -242,6 +242,53 @@
     "about": "A empresa Feira Automática, Lda é especializada em todo o tipo de acessos automáticos, portas seccionadas de garagem, automatismos para portões, portas rápidas em PVC e portas de vidro. Ao longo dos anos, adquirimos as infraestruturas, experiência e elevados níveis de qualidade, que nos permitem prestar um serviço competente e assíduo, sempre com garantia e assistência.",
     "servicesSection": {
       "title": "Serviços",
+      "categories": [
+        {
+          "title": "Cais de Carga",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5571-150x150.png",
+          "url": "https://feiraautomatica.pt/produto/cais-de-carga/"
+        },
+        {
+          "title": "Portas Seccionadas",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5564-150x150.png",
+          "url": "https://feiraautomatica.pt/produto/portas-seccionadas-industriais/"
+        },
+        {
+          "title": "Grades de Enrolar",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5573-150x150.png",
+          "url": "https://feiraautomatica.pt/produto/grades-de-enrolar/"
+        },
+        {
+          "title": "Portas Rápidas",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5568-150x150.png",
+          "url": "https://feiraautomatica.pt/produtos/portas-rapidas-em-pvc/"
+        },
+        {
+          "title": "Portas de Vidro",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5576-150x150.png",
+          "url": "https://feiraautomatica.pt/produtos/portas-de-vidro/"
+        },
+        {
+          "title": "Automatismos Portões de Batente",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5569-150x150.png",
+          "url": "https://feiraautomatica.pt/produtos/portoes-de-batente/"
+        },
+        {
+          "title": "Automatismos Portões de Correr",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5572-150x150.png",
+          "url": "https://feiraautomatica.pt/produtos/portoes-de-correr/"
+        },
+        {
+          "title": "Automatismos Portas de Garagem",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5567-150x150.png",
+          "url": "https://feiraautomatica.pt/produtos/portoes-de-garagem/"
+        },
+        {
+          "title": "Barreiras",
+          "icon": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5566-150x150.png",
+          "url": "https://feiraautomatica.pt/produtos/barreiras/"
+        }
+      ],
       "items": [
         {
           "title": "Instalação",
@@ -319,6 +366,15 @@
   "contact": {
     "title": "Contactos",
     "formTitle": "Formulário de Contacto",
+    "quoteBanner": {
+      "label": "Orçamentos Grátis",
+      "headline": "Automatismos, portas seccionadas, motores para garagem, portões automáticos, portas automáticas, portões de correr, portas de vidro e muito mais!",
+      "description": "Peça o seu orçamento sem compromisso. Respondemos com rapidez por telefone ou email.",
+      "formTitle": "Pedir orçamento",
+      "submitLabel": "Enviar pedido",
+      "successMessage": "Obrigado! Recebemos o seu pedido e entraremos em contacto consigo em breve.",
+      "errorMessage": "Não foi possível enviar o formulário. Por favor contacte-nos por telefone ou email."
+    },
     "address": {
       "street": "Avenida do Monumento, 1829",
       "postalCode": "4520-608",

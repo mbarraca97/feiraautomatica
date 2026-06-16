@@ -61,7 +61,7 @@ export default function FAQSection() {
   const faq = homepage.faq;
 
   return (
-    <section id="contact" className="py-section-sm tablet:py-section-md desktop:py-section-lg">
+    <section id="faq" className="py-section-sm tablet:py-section-md desktop:py-section-lg">
       <div className="mx-auto max-w-container px-4">
         <ScrollReveal>
           <div className="mx-auto mb-10 max-w-2xl text-center tablet:mb-14">

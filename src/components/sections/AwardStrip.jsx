@@ -106,7 +106,7 @@ function StaticShowcase() {
   return (
     <section className="bg-background py-section-lg">
       <div className="mx-auto max-w-container px-4 text-center">
-        <h2 className="font-display text-[clamp(3rem,12vw,8rem)] font-black leading-none tracking-tighter text-foreground">
+          <h2 className="font-display text-[clamp(3rem,12vw,8rem)] font-black leading-none tracking-tighter text-foreground whitespace-pre-line">
           {SHOWCASE_COPY.title}
         </h2>
         <p className="mx-auto mt-6 max-w-2xl font-body text-base leading-relaxed text-muted tablet:text-lg">
@@ -164,7 +164,7 @@ export default function AwardStrip() {
           className="pointer-events-none absolute inset-0 z-20 flex flex-col items-center justify-center px-6 text-center"
           style={{ opacity: textOpacity }}
         >
-          <h2 className="font-display text-[clamp(3.5rem,14vw,9rem)] font-black leading-[0.95] tracking-tighter text-foreground">
+          <h2 className="font-display text-[clamp(3.5rem,14vw,9rem)] font-black leading-[0.95] tracking-tighter text-foreground whitespace-pre-line">
             {SHOWCASE_COPY.title}
           </h2>
           <p className="mt-5 max-w-xl font-body text-sm leading-relaxed text-[#4A4A4A] tablet:mt-6 tablet:max-w-2xl tablet:text-base desktop:text-lg">

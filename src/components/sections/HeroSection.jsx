@@ -40,7 +40,7 @@ export default function HeroSection() {
         {/* Center — product image */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center px-20 py-32 tablet:px-28 tablet:py-36">
           <motion.div
-            className="relative w-full max-w-[240px] sm:max-w-[280px] tablet:max-w-[380px] desktop:max-w-[500px]"
+            className="relative w-full max-w-[280px] sm:max-w-[320px] tablet:max-w-[420px] desktop:max-w-[560px]"
             {...imageMotion}
           >
             <img

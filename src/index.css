@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-accent: rgb(1, 85, 156);
+    --color-accent-subtle: rgba(1, 85, 156, 0.1);
+  }
+
   html {
     scroll-behavior: smooth;
   }

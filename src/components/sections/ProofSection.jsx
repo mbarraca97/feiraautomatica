@@ -53,7 +53,7 @@ export default function ProofSection() {
               <div className="overflow-hidden rounded-[1.25rem] tablet:rounded-[1.5rem]">
                 <img
                   src={image}
-                  alt={`${author} testimonial`}
+                  alt={`Feedback de ${author}`}
                   className="h-full min-h-[280px] w-full object-cover tablet:min-h-[420px]"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
@@ -79,7 +79,7 @@ export default function ProofSection() {
                 </div>
 
                 <blockquote className="mt-8 flex flex-1 flex-col text-left">
-                  <p className="text-heading-lg font-display leading-snug text-foreground">
+                  <p className="whitespace-pre-line font-body text-lg leading-relaxed text-foreground tablet:text-xl desktop:text-2xl">
                     {quote}
                   </p>
 
@@ -94,7 +94,8 @@ export default function ProofSection() {
                       }}
                     />
                     <cite className="font-body text-base not-italic text-muted">
-                      — {author}, {company}
+                      — {author}
+                      {company ? `, ${company}` : ''}
                     </cite>
                   </footer>
                 </blockquote>

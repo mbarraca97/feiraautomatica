@@ -15,11 +15,7 @@ export const assets = feiraData.assets;
 export const NAV_LINKS = navigation.main;
 export const FEATURE_PILLS = hero.featureTopics;
 export const FAQ_ITEMS = homepage.faq.items;
-export const TESTIMONIALS = homepage.services.map((service) => ({
-  name: service.title,
-  title: 'Feira Automática',
-  quote: service.description,
-}));
+export const SERVICE_CATEGORIES = company.servicesSection.categories;
 export const BLOG_POSTS = homepage.gallery.categories.map((item) => ({
   category: item.category,
   date: '',

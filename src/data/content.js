@@ -2,11 +2,7 @@ import feiraData from './feiraautomatica.json';
 
 export const FAQ_ITEMS = feiraData.homepage.faq.items;
 
-export const TESTIMONIALS = feiraData.homepage.services.map((service) => ({
-  name: service.title,
-  title: 'Feira Automática',
-  quote: service.description,
-}));
+export const SERVICE_CATEGORIES = feiraData.company.servicesSection.categories;
 
 export const BLOG_POSTS = feiraData.homepage.gallery.categories.map((item) => ({
   category: item.category,

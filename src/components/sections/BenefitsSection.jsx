@@ -148,7 +148,7 @@ export default function BenefitsSection() {
 
               {/* 8D Immersive */}
               <BentoCard
-                className="col-span-2 min-h-[180px] bg-[#FFF0ED] tablet:min-h-[200px]"
+                className="col-span-2 min-h-[180px] bg-accent-subtle tablet:min-h-[200px]"
                 hoverLabel={immersive.hoverLabel}
                 hoverText={immersive.hoverText}
               >
@@ -194,6 +194,7 @@ export default function BenefitsSection() {
               {/* Clock pill */}
               <BentoCard
                 className="bg-foreground"
+                hoverOverlay="solid"
                 hoverLabel={clock.hoverLabel}
                 hoverText={clock.hoverText}
               >
