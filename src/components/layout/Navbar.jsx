@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import Button from '../ui/Button';
-import { NAV_LINKS } from '../../data/content';
+import { NAV_LINKS, navigation } from '../../data/content';
 
 function MenuDots() {
   return (
@@ -91,7 +91,7 @@ export default function Navbar() {
                 className="mt-6"
               >
                 <Button variant="primary" size="lg">
-                  Pre-order →
+                  {navigation.cta} →
                 </Button>
               </motion.div>
             </nav>

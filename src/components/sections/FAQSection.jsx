@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import ScrollReveal from '../ui/ScrollReveal';
 import { FAQ_ITEMS } from '../../data/content';
+import { homepage } from '../../data/site';
 
 function FAQItem({ item, isOpen, onToggle }) {
   const shouldReduceMotion = useReducedMotion();
@@ -57,15 +58,16 @@ function FAQItem({ item, isOpen, onToggle }) {
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
+  const faq = homepage.faq;
+
   return (
     <section id="contact" className="py-section-sm tablet:py-section-md desktop:py-section-lg">
       <div className="mx-auto max-w-container px-4">
         <ScrollReveal>
           <div className="mx-auto mb-10 max-w-2xl text-center tablet:mb-14">
-            <h2 className="text-heading-xl font-display">Ask less. Know more</h2>
+            <h2 className="text-heading-xl font-display">{faq.title}</h2>
             <p className="mt-4 font-body text-base leading-relaxed text-muted">
-              Quick answers to the things you&apos;re wondering—so you can get back to
-              living smarter.
+              {faq.subtitle}
             </p>
           </div>
         </ScrollReveal>

@@ -1,51 +1,12 @@
-export const SHOWCASE_IMAGES_LEFT = [
-  {
-    id: 'left-1',
-    src: 'https://framerusercontent.com/images/avX02Hlmx5HPgNl4kkbXHrXgp1U.png',
-    alt: 'Quora device front',
-    label: 'Product front',
-  },
-  {
-    id: 'left-2',
-    src: 'https://framerusercontent.com/images/9aoIq4K86s3G3Hoee6q2ANpmQs8.jpeg',
-    alt: 'Quora remote detail',
-    label: 'Remote detail',
-  },
-  {
-    id: 'left-3',
-    src: 'https://framerusercontent.com/images/blO9S3CbYfXAfqzsNgSGOggU7no.jpeg',
-    alt: 'Quora texture detail',
-    label: 'Texture detail',
-  },
-];
+import feiraData from './feiraautomatica.json';
 
-export const SHOWCASE_IMAGES_RIGHT = [
-  {
-    id: 'right-1',
-    src: 'https://framerusercontent.com/images/MbSl7ogb6FrP81SE1H0c7ZGDVM.jpeg',
-    alt: 'Quora lifestyle',
-    label: 'Lifestyle',
-  },
-  {
-    id: 'right-2',
-    src: 'https://framerusercontent.com/images/C4AB5PRdkU4tzYpdiXzH9YwF00.jpeg',
-    alt: 'Quora in home',
-    label: 'In home',
-  },
-  {
-    id: 'right-3',
-    src: 'https://framerusercontent.com/images/xv3nm56HVTpEx81tRmAmLJ90.jpeg',
-    alt: 'Quora product angle',
-    label: 'Product angle',
-  },
-];
+export const SHOWCASE_IMAGES_LEFT = feiraData.homepage.showcase.imagesLeft;
+export const SHOWCASE_IMAGES_RIGHT = feiraData.homepage.showcase.imagesRight;
 
 export const SHOWCASE_COPY = {
-  title: 'QUORA',
-  subtitle:
-    'It takes care of the background so you can stay focused, sharp, and in full control of your day.',
+  title: feiraData.homepage.showcase.title,
+  subtitle: feiraData.homepage.showcase.subtitlePt,
 };
 
-export const SHOWCASE_VIDEO = './videos/showcase.mp4';
-export const SHOWCASE_VIDEO_POSTER =
-  'https://framerusercontent.com/images/blO9S3CbYfXAfqzsNgSGOggU7no.jpeg';
+export const SHOWCASE_VIDEO = feiraData.homepage.showcase.video;
+export const SHOWCASE_VIDEO_POSTER = feiraData.homepage.showcase.videoPoster;

@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "source": "https://feiraautomatica.pt/",
+    "scrapedAt": "2026-06-15",
+    "siteName": "Feira Automática",
+    "tagline": "Automatismos, Portas Seccionadas",
+    "title": "Feira Automática – Automatismos, Portas Seccionadas",
+    "description": "Automatismos, portas seccionadas, motores para garagem, portões automáticos, portas automáticas, portões de correr, portas de vidro e muito mais. Orçamentos grátis.",
+    "copyright": "© FEIRAAUTOMATICA.PT - Automatismos para Portas e Portões, Portas Seccionadas, Portas Automáticas, Portões de garagem e Motores para garagem"
+  },
+  "navigation": {
+    "main": [
+      { "label": "Início", "href": "#" },
+      { "label": "A Empresa", "href": "#about" },
+      { "label": "Galeria", "href": "#galeria" },
+      { "label": "Contactos", "href": "#contact" }
+    ],
+    "cta": "Orçamentos Grátis"
+  },
+  "hero": {
+    "slidingTitles": ["Feira", "Automática"],
+    "subtitle": "Automatismos, portas seccionadas, motores para garagem, portões automáticos, portas automáticas, portões de correr, portas de vidro e muito mais!",
+    "cta": "Orçamentos Grátis",
+    "featureTopics": ["Automatismos", "Portas", "Instalação", "Assistência"],
+    "stats": [
+      { "label": "Fundada em", "value": "1990" },
+      { "label": "Clientes", "value": "30.000+" }
+    ],
+    "image": "https://feiraautomatica.pt/wp-content/uploads/2023/01/logo_f.png"
+  },
+  "homepage": {
+    "headline": "Há 33 anos no mercado!",
+    "highlights": [
+      "Fundada em 1990",
+      "Mais de 30.000 clientes"
+    ],
+    "servicesIntro": {
+      "title": "Tecnologia e experiência ao seu serviço",
+      "marqueeBrands": ["DITEC", "NICE", "PROTECO", "ISO 9001", "PME Líder"]
+    },
+    "featured": {
+      "label": "A nossa empresa",
+      "quote": "A empresa Feira Automática adquiriu ao longo dos anos as infraestruturas, experiência e elevados níveis de qualidade que nos permitem prestar um serviço competente e assíduo, sempre com garantia e assistência.",
+      "author": "Feira Automática",
+      "role": "Santa Maria da Feira",
+      "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1931-980x683.jpg"
+    },
+    "technology": {
+      "title": "Reimaginados pela tecnologia",
+      "subtitle": "Especialistas em acessos automáticos, portas seccionadas, automatismos para portões, portas rápidas em PVC e portas de vidro — com instalação e assistência no local.",
+      "trustedBy": {
+        "prefix": "Confiam em nós:",
+        "value": 30000,
+        "suffix": "+",
+        "label": "Clientes satisfeitos"
+      },
+      "bentoCards": [
+        {
+          "id": "trusted",
+          "type": "stat",
+          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/Untitled_Panorama3-980x683.jpg",
+          "hoverLabel": "Desde 1990",
+          "hoverText": "Mais de 33 anos de experiência no mercado dos automatismos e portas seccionadas.",
+          "stat": {
+            "prefix": "Fundada em",
+            "value": 1990,
+            "suffix": "",
+            "label": "33 anos de mercado"
+          }
+        },
+        {
+          "id": "remote",
+          "type": "image",
+          "image": "https://feiraautomatica.pt/wp-content/uploads/2023/08/IMG_5571-150x150.png",
+          "hoverLabel": "Automatismos",
+          "hoverText": "Soluções para portões de batente, correr e garagem."
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1928-980x683.jpg",
+          "badge": "Distribuidor autorizado",
+          "rating": "ISO 9001",
+          "reviews": "Certificação de qualidade",
+          "hoverLabel": "Instalações",
+          "hoverText": "Showroom e instalações na Zona Industrial do Cavaco, Santa Maria da Feira."
+        },
+        {
+          "id": "immersive",
+          "type": "immersive",
+          "title": "2 Anos",
+          "subtitle": "Garantia em todos os produtos",
+          "hoverLabel": "Garantia",
+          "hoverText": "Todos os produtos comercializados possuem garantia de 2 anos."
+        },
+        {
+          "id": "clock",
+          "type": "clock",
+          "hoverLabel": "Horário",
+          "hoverText": "Seg–Sex 08h30–12h30 e 14h00–18h30 · Sáb 08h30–12h30"
+        }
+      ]
+    },
+    "showcase": {
+      "title": "FEIRA AUTOMÁTICA",
+      "subtitlePt": "Automatismos, portas seccionadas e acessos automáticos — instalação, garantia e assistência com a qualidade de quem está há 33 anos no mercado.",
+      "imagesLeft": [
+        {
+          "id": "left-1",
+          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1819-980x683.jpg",
+          "alt": "Instalações Feira Automática",
+          "label": "Instalações"
+        },
+        {
+          "id": "left-2",
+          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1836_-980x683.jpg",
+          "alt": "Showroom Feira Automática",
+          "label": "Showroom"
+        },
+        {
+          "id": "left-3",
+          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/08/IMG_1933-980x683.jpg",
+          "alt": "Equipa Feira Automática",
+          "label": "Equipa"
+        }
+      ],
+      "imagesRight": [
+        {
+          "id": "right-1",
+          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1928-980x683.jpg",
+          "alt": "Portas seccionadas",
+          "label": "Portas seccionadas"
+        },
+        {
+          "id": "right-2",
+          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1931-980x683.jpg",
+          "alt": "Automatismos",
+          "label": "Automatismos"
+        },
+        {
+          "id": "right-3",
+          "src": "https://feiraautomatica.pt/wp-content/uploads/2015/06/Untitled_Panorama3-980x683.jpg",
+          "alt": "Panorama das instalações",
+          "label": "Panorama"
+        }
+      ],
+      "video": "./videos/showcase.mp4",
+      "videoPoster": "https://feiraautomatica.pt/wp-content/uploads/2015/06/Untitled_Panorama3-980x683.jpg"
+    },
+    "services": [
+      {
+        "title": "Instalação",
+        "description": "Serviço de instalação com equipas formadas e experientes, disponível para particulares, empresas e revenda."
+      },
+      {
+        "title": "Assistência no local",
+        "description": "Assistência técnica para acessos automáticos, portas seccionadas, automatismos, portas rápidas em PVC e portas de vidro."
+      },
+      {
+        "title": "Garantia 2 anos",
+        "description": "Todos os produtos comercializados pela Feira Automática possuem garantia pelo período de 2 anos."
+      },
+      {
+        "title": "Apoio ao cliente",
+        "description": "Durante toda a semana e ao sábado, serviço de apoio ao cliente para resposta rápida a questões e dúvidas."
+      }
+    ],
+    "gallery": {
+      "title": "As nossas instalações",
+      "subtitle": "Conheça o nosso showroom e alguns dos projetos que realizámos ao longo dos anos.",
+      "linkLabel": "Ver galeria",
+      "categories": [
+        {
+          "category": "Portas Seccionadas",
+          "title": "Portfolio de Portas Seccionadas Industriais",
+          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1819-980x683.jpg"
+        },
+        {
+          "category": "Residencial",
+          "title": "Portfolio de Portas Seccionadas Residenciais",
+          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1928-980x683.jpg"
+        },
+        {
+          "category": "Automatismos",
+          "title": "Portfolio de Automatismos para Portões e Barreiras",
+          "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1931-980x683.jpg"
+        }
+      ],
+      "portfolioSections": [
+        "Portfolio de Portas Seccionadas Industriais",
+        "Portfolio de Portas Seccionadas Residenciais",
+        "Portfolio de Automatismos para Portões e Barreiras",
+        "Portfolio de Portas Rápidas em PVC",
+        "Portfolio de Portas de Vidro",
+        "Portfolio de Portas Corta Fogo",
+        "Portfolio de Cais de Carga"
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "subtitle": "Respostas rápidas às questões mais comuns — para que possa avançar com confiança.",
+      "items": [
+        {
+          "question": "O que faz a Feira Automática?",
+          "answer": "Somos especializados em automatismos, portas seccionadas, motores para garagem, portões automáticos, portas automáticas, portões de correr, portas de vidro, portas rápidas em PVC, grades de enrolar, barreiras e cais de carga."
+        },
+        {
+          "question": "Desde quando estão no mercado?",
+          "answer": "A Feira Automática foi fundada em 1990 e conta com mais de 30.000 clientes. Iniciámos a atividade no Centro Comercial Parque América em São João da Madeira e estamos atualmente na Zona Industrial do Cavaco."
+        },
+        {
+          "question": "Quais marcas representam?",
+          "answer": "Somos distribuidor autorizado de marcas de referência como DITEC, NICE e PROTECO, entre outras."
+        },
+        {
+          "question": "Oferecem instalação?",
+          "answer": "Sim. Dispomos de serviço de instalação com vários meios de transporte e funcionários com formação e experiência, disponível para particulares, empresas e revenda."
+        },
+        {
+          "question": "Têm assistência técnica?",
+          "answer": "Sim. Prestamos assistência no local para todo o tipo de acessos automáticos, portas seccionadas, automatismos para portões, portas rápidas em PVC e portas de vidro. Basta contactar-nos."
+        },
+        {
+          "question": "Qual é o período de garantia?",
+          "answer": "Todos os produtos comercializados pela Feira Automática possuem garantia de 2 anos."
+        },
+        {
+          "question": "Como posso pedir um orçamento?",
+          "answer": "Pode contactar-nos por telefone, email ou formulário de contacto. Oferecemos orçamentos grátis."
+        },
+        {
+          "question": "Qual é o horário de funcionamento?",
+          "answer": "Segunda a sexta: 08h30–12h30 e 14h00–18h30. Sábado: 08h30–12h30. Domingo: encerrado."
+        }
+      ]
+    }
+  },
+  "company": {
+    "legalName": "Feira Automática, Lda",
+    "headline": "A EMPRESA",
+    "tagline": "Feira Automática",
+    "about": "A empresa Feira Automática, Lda é especializada em todo o tipo de acessos automáticos, portas seccionadas de garagem, automatismos para portões, portas rápidas em PVC e portas de vidro. Ao longo dos anos, adquirimos as infraestruturas, experiência e elevados níveis de qualidade, que nos permitem prestar um serviço competente e assíduo, sempre com garantia e assistência.",
+    "servicesSection": {
+      "title": "Serviços",
+      "items": [
+        {
+          "title": "Instalação",
+          "description": "Temos ao seu dispor um serviço de instalação composto por vários meios de transporte e funcionários com formação e experiência para dar uma resposta eficaz, assídua e com qualidade. Este serviço encontra-se disponível tanto para particulares e empresas como serviço de revenda."
+        },
+        {
+          "title": "Assistência no local",
+          "description": "Seja nosso cliente ou não, possuímos o serviço de assistência no local que abrange todo o tipo de acessos automáticos, portas seccionadas de garagem, automatismos para portões, portas rápidas em PVC e portas de vidro. Para aceder ao serviço basta contactar-nos."
+        },
+        {
+          "title": "Garantia",
+          "description": "Todos os produtos comercializados pela Feira Automática possuem garantia pelo periodo de 2 anos."
+        },
+        {
+          "title": "Apoio ao cliente",
+          "description": "Durante toda a semana e ao sábado possuímos um serviço de apoio ao cliente para poder desta forma dar uma resposta rápida para resolver qualquer tipo de questão ou duvida."
+        }
+      ]
+    },
+    "history": {
+      "title": "Breve história da Empresa",
+      "milestones": [
+        "Renovação do showroom",
+        "Renovação de imagem e de espaço",
+        "Mudança definitiva para as novas instalações",
+        "Construção das novas instalações na Zona Industrial do Cavaco",
+        "Inicio da atividade no Centro Comercial Parque América em São João da Madeira"
+      ]
+    },
+    "installations": {
+      "title": "As nossas instalações",
+      "images": [
+        "https://feiraautomatica.pt/wp-content/uploads/2015/06/Untitled_Panorama3-980x683.jpg",
+        "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1931-980x683.jpg",
+        "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1928-980x683.jpg",
+        "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1819-980x683.jpg",
+        "https://feiraautomatica.pt/wp-content/uploads/2015/06/IMG_1836_-980x683.jpg",
+        "https://feiraautomatica.pt/wp-content/uploads/2015/06/ISO9001-980x683.png",
+        "https://feiraautomatica.pt/wp-content/uploads/2015/08/IMG_1933-980x683.jpg",
+        "https://feiraautomatica.pt/wp-content/uploads/2015/08/IMG_1927.jpg"
+      ]
+    }
+  },
+  "brands": {
+    "title": "Distribuidor autorizado",
+    "description": "Provas dos nossos níveis de competência e qualidade são as varias marcas representadas por nós. Destacando a DITEC, NICE e PROTECO.",
+    "logos": [
+      {
+        "name": "DITEC",
+        "image": "https://feiraautomatica.pt/wp-content/uploads/2020/10/Ditec1.png",
+        "url": "https://feiraautomatica.pt/"
+      },
+      {
+        "name": "NICE",
+        "image": "https://feiraautomatica.pt/wp-content/uploads/2020/10/Nice2.png",
+        "url": "https://feiraautomatica.pt/"
+      },
+      {
+        "name": "PROTECO",
+        "image": "https://feiraautomatica.pt/wp-content/uploads/2020/10/proteco1.png",
+        "url": "https://feiraautomatica.pt/"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "ISO 9001",
+        "image": "https://feiraautomatica.pt/wp-content/uploads/2015/06/ISO9001-980x683.png"
+      },
+      {
+        "name": "PME Líder 2022",
+        "image": "https://feiraautomatica.pt/wp-content/uploads/2023/01/PME_Lider_2022_2D_preto-branco_Negativo2.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactos",
+    "formTitle": "Formulário de Contacto",
+    "address": {
+      "street": "Avenida do Monumento, 1829",
+      "postalCode": "4520-608",
+      "city": "Santa Maria da Feira",
+      "country": "Portugal",
+      "full": "Avenida Monumento 1829, 4520-608 Santa Maria da Feira"
+    },
+    "phone": {
+      "landline": "256 37 33 77",
+      "landlineNote": "Chamada para a rede fixa nacional",
+      "mobile": "916 137 841",
+      "mobileNote": "Chamada para a rede móvel nacional"
+    },
+    "email": "geral@feiraautomatica.pt",
+    "hours": {
+      "weekdays": "Segunda–Sexta: 08h30–12h30 e 14h00–18h30",
+      "saturday": "Sábado: 08h30–12h30",
+      "sunday": "Domingo: Fechado",
+      "full": "Segunda–Sexta: 08h30 ao 12h30 e das 14h00 às 18h30 · Sábado: 08h30 às 12h30 · Domingo: Fechado"
+    },
+    "gps": {
+      "dms": "40°56'51.8\"N 8°32'09.8\"W",
+      "decimal": "40.947708, -8.536069"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/feira.automatica",
+      "instagram": "https://www.instagram.com/feira.automatica/"
+    }
+  },
+  "footer": {
+    "tagline": "Automatismos de confiança",
+    "description": "Com 33 anos de experiência, a Feira Automática presta um serviço competente e assíduo em automatismos e portas seccionadas — sempre com garantia e assistência.",
+    "columns": {
+      "company": [
+        { "label": "A Empresa", "href": "#about" },
+        { "label": "Galeria", "href": "#galeria" },
+        { "label": "Contactos", "href": "#contact" }
+      ],
+      "services": [
+        { "label": "Instalação", "href": "#about" },
+        { "label": "Assistência", "href": "#contact" },
+        { "label": "Orçamentos Grátis", "href": "#contact" }
+      ]
+    }
+  },
+  "assets": {
+    "logo": "https://feiraautomatica.pt/wp-content/uploads/2023/01/logo_f.png",
+    "logoAlt": "Feira Automática",
+    "favicon": "https://feiraautomatica.pt/wp-content/uploads/2017/06/cropped-logo1-32x32.png"
+  },
+  "sitemap": {
+    "pages": [
+      { "path": "/", "title": "Início" },
+      { "path": "/empresa/", "title": "A Empresa" },
+      { "path": "/galeria/", "title": "Galeria" },
+      { "path": "/contactos/", "title": "Contactos" }
+    ],
+    "externalProductsNote": "Product pages exist on source site but are excluded from this rebuild per project requirements."
+  }
+}

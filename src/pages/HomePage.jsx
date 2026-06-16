@@ -3,7 +3,6 @@ import Footer from '../components/layout/Footer';
 import HeroSection from '../components/sections/HeroSection';
 import ProofSection from '../components/sections/ProofSection';
 import BenefitsSection from '../components/sections/BenefitsSection';
-import ProductSection from '../components/sections/ProductSection';
 import AwardStrip from '../components/sections/AwardStrip';
 import TestimonialsSection from '../components/sections/TestimonialsSection';
 import BlogPreviewSection from '../components/sections/BlogPreviewSection';
@@ -17,7 +16,6 @@ export default function HomePage() {
         <HeroSection />
         <ProofSection />
         <BenefitsSection />
-        <ProductSection />
         <AwardStrip />
         <TestimonialsSection />
         <BlogPreviewSection />

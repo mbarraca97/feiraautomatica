@@ -1,7 +1,7 @@
 import ScrollReveal from '../ui/ScrollReveal';
 import LogoMarquee from '../ui/LogoMarquee';
 import PlaceholderImage from '../ui/PlaceholderImage';
-import { FEATURED_TESTIMONIAL } from '../../data/proof';
+import { FEATURED_TESTIMONIAL, PROOF_INTRO } from '../../data/proof';
 
 function QuoteIcon() {
   return (
@@ -38,7 +38,7 @@ export default function ProofSection() {
             <SectionIcon />
 
             <h2 className="mx-auto mt-8 max-w-3xl text-heading-xl font-display tablet:mt-10">
-              Cutting-edge technology meets timeless design
+              {PROOF_INTRO.title}
             </h2>
 
             <LogoMarquee />

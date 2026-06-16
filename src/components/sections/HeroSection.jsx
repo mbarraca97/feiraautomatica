@@ -4,6 +4,8 @@ import SlidingTitle from '../ui/SlidingTitle';
 import FeatureTopics from '../ui/FeatureTopics';
 import ScrollIndicator from '../ui/ScrollIndicator';
 
+import { hero, navigation } from '../../data/site';
+
 export default function HeroSection() {
   const shouldReduceMotion = useReducedMotion();
 
@@ -32,7 +34,7 @@ export default function HeroSection() {
           className="absolute left-5 top-6 z-20 tablet:left-8 tablet:top-8 desktop:left-12 desktop:top-10"
           {...fadeUp(0.15)}
         >
-          <SlidingTitle />
+          <SlidingTitle words={hero.slidingTitles} />
         </motion.div>
 
         {/* Center — product image */}
@@ -42,8 +44,8 @@ export default function HeroSection() {
             {...imageMotion}
           >
             <img
-              src="https://framerusercontent.com/images/avX02Hlmx5HPgNl4kkbXHrXgp1U.png"
-              alt="Feira smart home device"
+              src={hero.image}
+              alt="Feira Automática"
               className="h-auto w-full object-contain drop-shadow-[0_24px_48px_rgba(0,0,0,0.12)]"
             />
           </motion.div>
@@ -63,13 +65,15 @@ export default function HeroSection() {
           {...fadeUp(0.45)}
         >
           <p className="font-body text-sm leading-relaxed text-foreground tablet:text-base">
-            Feira is like having a personal assistant for your entire home.
+            {hero.subtitle}
           </p>
           <div className="mt-4">
-            <Button variant="primary" size="md" className="gap-2 text-sm">
-              Pre-order
-              <span aria-hidden="true">→</span>
-            </Button>
+            <a href="#contact">
+              <Button variant="primary" size="md" className="gap-2 text-sm">
+                {navigation.cta}
+                <span aria-hidden="true">→</span>
+              </Button>
+            </a>
           </div>
         </motion.div>
 

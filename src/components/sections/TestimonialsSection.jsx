@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Carousel from '../ui/Carousel';
 import ScrollReveal from '../ui/ScrollReveal';
 import { TESTIMONIALS } from '../../data/content';
+import { company } from '../../data/site';
 
 function TestimonialCard({ testimonial }) {
   return (
@@ -9,8 +10,8 @@ function TestimonialCard({ testimonial }) {
       className="w-[300px] shrink-0 rounded-2xl bg-surface p-6 tablet:w-[360px] tablet:p-8"
       whileHover={{ y: -4, transition: { duration: 0.2 } }}
     >
-      <p className="font-body text-base italic leading-relaxed text-foreground">
-        &ldquo;{testimonial.quote}&rdquo;
+      <p className="font-body text-base leading-relaxed text-foreground">
+        {testimonial.quote}
       </p>
       <div className="mt-6 border-t border-border pt-6">
         <p className="font-body text-base font-semibold">{testimonial.name}</p>
@@ -26,9 +27,9 @@ export default function TestimonialsSection() {
       <div className="mx-auto max-w-container px-4">
         <ScrollReveal>
           <div className="mb-10 max-w-2xl tablet:mb-14">
-            <h2 className="text-heading-xl font-display">Trusted by product builders</h2>
+            <h2 className="text-heading-xl font-display">{company.servicesSection.title}</h2>
             <p className="mt-4 font-body text-base leading-relaxed text-muted tablet:text-lg">
-              Staying focused, moving quickly, and always aiming for high-quality work.
+              {company.about}
             </p>
           </div>
         </ScrollReveal>

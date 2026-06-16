@@ -3,7 +3,7 @@ import { useInView, useReducedMotion } from 'framer-motion';
 import ScrollReveal from '../ui/ScrollReveal';
 import BentoCard from '../ui/BentoCard';
 import PlaceholderImage from '../ui/PlaceholderImage';
-import { BENTO_CARDS } from '../../data/benefits';
+import { BENTO_CARDS, TECHNOLOGY } from '../../data/benefits';
 
 function AnimatedCounter({ target = 156, suffix = 'K' }) {
   const ref = useRef(null);
@@ -68,7 +68,7 @@ function LiveClock() {
   useEffect(() => {
     const update = () => {
       setTime(
-        new Date().toLocaleTimeString('en-US', {
+        new Date().toLocaleTimeString('pt-PT', {
           hour: 'numeric',
           minute: '2-digit',
           second: '2-digit',
@@ -96,10 +96,9 @@ export default function BenefitsSection() {
       <div className="mx-auto max-w-container px-4">
         <ScrollReveal>
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-heading-xl font-display">Reimagined by Technology</h2>
+            <h2 className="text-heading-xl font-display">{TECHNOLOGY.title}</h2>
             <p className="mt-4 font-body text-base leading-relaxed text-muted tablet:mt-5 tablet:text-lg">
-              Quora turns your living space into an intelligent, effortless environment
-              that adapts to your day.
+              {TECHNOLOGY.subtitle}
             </p>
           </div>
         </ScrollReveal>
