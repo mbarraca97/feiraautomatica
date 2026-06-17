@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useInView, useReducedMotion } from 'framer-motion';
 import ScrollReveal from '../ui/ScrollReveal';
 import BentoCard from '../ui/BentoCard';
+import ScheduleClockCard from '../ui/ScheduleClockCard';
 import PlaceholderImage from '../ui/PlaceholderImage';
 import { BENTO_CARDS, TECHNOLOGY } from '../../data/benefits';
 
@@ -59,32 +60,6 @@ function CardImage({ src, alt, label, className = '' }) {
       className={`h-full w-full object-cover ${className}`}
       onError={() => setHasError(true)}
     />
-  );
-}
-
-function LiveClock() {
-  const [time, setTime] = useState('');
-
-  useEffect(() => {
-    const update = () => {
-      setTime(
-        new Date().toLocaleTimeString('pt-PT', {
-          hour: 'numeric',
-          minute: '2-digit',
-          second: '2-digit',
-          hour12: true,
-        })
-      );
-    };
-    update();
-    const id = setInterval(update, 1000);
-    return () => clearInterval(id);
-  }, []);
-
-  return (
-    <span className="font-body text-sm tabular-nums text-on-dark tablet:text-base">
-      {time}
-    </span>
   );
 }
 
@@ -164,7 +139,7 @@ export default function BenefitsSection() {
             </div>
 
             {/* Right column */}
-            <div className="flex flex-col gap-4 tablet:gap-5">
+            <div className="flex flex-col justify-end gap-4 tablet:gap-5">
               {/* Hero portrait */}
               <BentoCard
                 className="relative min-h-[360px] flex-1 tablet:min-h-[420px]"
@@ -191,31 +166,7 @@ export default function BenefitsSection() {
                 </div>
               </BentoCard>
 
-              {/* Clock pill */}
-              <BentoCard
-                className="bg-foreground"
-                hoverOverlay="solid"
-                hoverLabel={clock.hoverLabel}
-                hoverText={clock.hoverText}
-              >
-                <div className="flex items-center justify-center gap-3 px-6 py-4 tablet:py-5">
-                  <svg
-                    className="h-5 w-5 shrink-0 text-on-dark"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  <LiveClock />
-                </div>
-              </BentoCard>
+              <ScheduleClockCard label={clock.hoverLabel} />
             </div>
           </div>
         </ScrollReveal>

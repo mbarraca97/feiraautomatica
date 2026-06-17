@@ -40,7 +40,7 @@ export default function Navbar() {
         <button
           type="button"
           onClick={() => setMenuOpen(true)}
-          className="inline-flex min-w-[150px] items-center justify-between gap-4 rounded-pill bg-nav-glass px-6 py-2.5 font-body text-sm text-on-dark backdrop-blur-[10px] transition-opacity hover:opacity-90 tablet:min-w-[170px] tablet:px-7 tablet:py-3 tablet:text-base"
+          className="inline-flex min-w-[150px] items-center justify-between gap-4 rounded-xl bg-nav-glass px-6 py-2.5 font-body text-sm text-on-dark backdrop-blur-[10px] transition-opacity hover:opacity-90 tablet:min-w-[170px] tablet:rounded-2xl tablet:px-7 tablet:py-3 tablet:text-base"
           aria-expanded={menuOpen}
           aria-label="Open menu"
         >
