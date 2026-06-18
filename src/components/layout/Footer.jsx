@@ -14,103 +14,120 @@ const SOCIAL_ICONS = [
   },
 ];
 
+function FooterBrandTitle({ title }) {
+  return (
+    <div className="relative overflow-hidden pt-2 tablet:pt-4">
+      <p
+        aria-hidden="true"
+        className="m-0 block p-0 text-center font-display text-[clamp(3.25rem,18vw,11.5rem)] font-black leading-[0.82] tracking-tighter text-white/70"
+      >
+        {title}
+      </p>
+
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[62%] bg-gradient-to-t from-dark-surface from-30% via-dark-surface/90 to-transparent" />
+    </div>
+  );
+}
+
 export default function Footer() {
   return (
-    <footer className="bg-dark-surface text-on-dark">
-      <div className="mx-auto max-w-container px-4 py-section-sm tablet:py-section-md desktop:py-section-lg">
-        <ScrollReveal>
-          <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-4 desktop:gap-8">
-            <div className="space-y-4">
-              <h5 className="font-display text-lg font-semibold">{footer.tagline}</h5>
-              <p className="max-w-xs font-body text-base leading-relaxed text-on-dark-muted">
-                {footer.description}
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <p className="font-body text-sm font-semibold uppercase tracking-wider text-on-dark-muted">
-                Empresa
-              </p>
-              <ul className="space-y-3">
-                {footer.columns.company.map((link) => (
-                  <li key={link.label}>
+    <footer className="bg-background px-3 pb-3 pt-2 tablet:px-4 tablet:pb-4 tablet:pt-3 desktop:px-5 desktop:pb-5 desktop:pt-4">
+      <div className="mx-auto max-w-[1600px] overflow-hidden rounded-[2rem] bg-dark-surface text-on-dark tablet:rounded-[2.5rem] desktop:rounded-[3rem]">
+        <div className="px-5 pt-section-sm pb-6 tablet:px-10 tablet:pt-section-md tablet:pb-8 desktop:px-14 desktop:pt-section-lg desktop:pb-10">
+          <ScrollReveal>
+            <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-4 desktop:gap-8">
+              <div className="space-y-4">
+                <h5 className="font-display text-lg font-semibold">{footer.tagline}</h5>
+                <p className="max-w-xs font-body text-base leading-relaxed text-on-dark-muted">
+                  {footer.description}
+                </p>
+                <a
+                  href={`mailto:${contact.email}`}
+                  className="inline-block font-body text-base text-on-dark transition-colors hover:text-on-dark-muted"
+                >
+                  {contact.email}
+                </a>
+                <div className="flex gap-4 pt-1">
+                  {SOCIAL_ICONS.map((icon) => (
                     <a
-                      href={link.href}
-                      className="font-body text-base text-on-dark transition-colors hover:text-on-dark-muted"
+                      key={icon.label}
+                      href={icon.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={icon.label}
+                      className="text-on-dark-muted transition-colors hover:text-on-dark"
                     >
-                      {link.label}
+                      <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d={icon.path} />
+                      </svg>
                     </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+                  ))}
+                </div>
+              </div>
 
-            <div className="space-y-4">
-              <p className="font-body text-sm font-semibold uppercase tracking-wider text-on-dark-muted">
-                Serviços
-              </p>
-              <ul className="space-y-3">
-                {footer.columns.services.map((link) => (
-                  <li key={link.label}>
-                    <a
-                      href={link.href}
-                      className="font-body text-base text-on-dark transition-colors hover:text-on-dark-muted"
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+              <div className="space-y-4">
+                <p className="font-body text-sm font-semibold uppercase tracking-wider text-on-dark-muted">
+                  Empresa
+                </p>
+                <ul className="space-y-3">
+                  {footer.columns.company.map((link) => (
+                    <li key={link.label}>
+                      <a
+                        href={link.href}
+                        className="font-body text-base text-on-dark transition-colors hover:text-on-dark-muted"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-            <div className="space-y-4">
-              <p className="font-body text-sm font-semibold uppercase tracking-wider text-on-dark-muted">
-                Contactos
-              </p>
-              <p className="font-body text-sm text-on-dark-muted">{contact.address.full}</p>
-              <a
-                href={`tel:${contact.phone.landline.replace(/\s/g, '')}`}
-                className="block font-body text-base text-on-dark"
-              >
-                {contact.phone.landline}
-              </a>
-              <a
-                href={`tel:${contact.phone.mobile.replace(/\s/g, '')}`}
-                className="block font-body text-base text-on-dark"
-              >
-                {contact.phone.mobile}
-              </a>
-              <a
-                href={`mailto:${contact.email}`}
-                className="block font-body text-base text-on-dark transition-colors hover:text-on-dark-muted"
-              >
-                {contact.email}
-              </a>
+              <div className="space-y-4">
+                <p className="font-body text-sm font-semibold uppercase tracking-wider text-on-dark-muted">
+                  Serviços
+                </p>
+                <ul className="space-y-3">
+                  {footer.columns.services.map((link) => (
+                    <li key={link.label}>
+                      <a
+                        href={link.href}
+                        className="font-body text-base text-on-dark transition-colors hover:text-on-dark-muted"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-              <div className="flex gap-4 pt-2">
-                {SOCIAL_ICONS.map((icon) => (
-                  <a
-                    key={icon.label}
-                    href={icon.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={icon.label}
-                    className="text-on-dark-muted transition-colors hover:text-on-dark"
-                  >
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d={icon.path} />
-                    </svg>
-                  </a>
-                ))}
+              <div className="space-y-4">
+                <p className="font-body text-sm font-semibold uppercase tracking-wider text-on-dark-muted">
+                  Contactos
+                </p>
+                <p className="font-body text-sm text-on-dark-muted">{contact.address.full}</p>
+                <a
+                  href={`tel:${contact.phone.landline.replace(/\s/g, '')}`}
+                  className="block font-body text-base text-on-dark"
+                >
+                  {contact.phone.landline}
+                </a>
+                <a
+                  href={`tel:${contact.phone.mobile.replace(/\s/g, '')}`}
+                  className="block font-body text-base text-on-dark"
+                >
+                  {contact.phone.mobile}
+                </a>
               </div>
             </div>
-          </div>
-        </ScrollReveal>
 
-        <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-8 tablet:flex-row tablet:items-center tablet:justify-between">
-          <span className="font-display text-lg font-bold">{meta.siteName}</span>
-          <p className="font-body text-sm text-on-dark-muted">{meta.copyright}</p>
+            <p className="mt-8 font-body text-sm text-on-dark-muted tablet:mt-10">
+              {meta.copyright}
+            </p>
+          </ScrollReveal>
         </div>
+
+        <FooterBrandTitle title={footer.brandTitle} />
       </div>
     </footer>
   );
