@@ -406,6 +406,7 @@
   },
   "footer": {
     "tagline": "Automatismos de confiança",
+    "brandTitle": "Feira Automática",
     "description": "Com 33 anos de experiência, a Feira Automática presta um serviço competente e assíduo em automatismos e portas seccionadas — sempre com garantia e assistência.",
     "columns": {
       "company": [
@@ -421,7 +422,7 @@
     }
   },
   "assets": {
-    "logo": "https://feiraautomatica.pt/wp-content/uploads/2023/01/logo_f.png",
+    "logo": "/images/logo.png",
     "logoAlt": "Feira Automática",
     "favicon": "https://feiraautomatica.pt/wp-content/uploads/2017/06/cropped-logo1-32x32.png"
   },

@@ -1,6 +1,7 @@
 import ScrollReveal from '../ui/ScrollReveal';
 import LogoMarquee from '../ui/LogoMarquee';
 import PlaceholderImage from '../ui/PlaceholderImage';
+import { assets } from '../../data/site';
 import { FEATURED_TESTIMONIAL, PROOF_INTRO } from '../../data/proof';
 
 function QuoteIcon() {
@@ -16,12 +17,14 @@ function QuoteIcon() {
   );
 }
 
-function SectionIcon() {
+function SectionLogo() {
   return (
-    <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-surface tablet:h-16 tablet:w-16">
-      <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-foreground shadow-sm">
-        <span className="font-body text-[10px] font-bold text-on-dark">⌘</span>
-      </div>
+    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-foreground shadow-sm tablet:h-20 tablet:w-20 tablet:rounded-[1.25rem]">
+      <img
+        src={assets.logo}
+        alt={assets.logoAlt}
+        className="h-10 w-auto object-contain tablet:h-12"
+      />
     </div>
   );
 }
@@ -35,7 +38,7 @@ export default function ProofSection() {
         {/* Intro: icon → title → marquee */}
         <ScrollReveal>
           <div className="text-center">
-            <SectionIcon />
+            <SectionLogo />
 
             <h2 className="mx-auto mt-8 max-w-3xl text-heading-xl font-display tablet:mt-10">
               {PROOF_INTRO.title}
